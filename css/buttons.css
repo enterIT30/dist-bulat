@@ -1,0 +1,69 @@
+@font-face {
+  font-family: GolosUiBold;
+  font-display: swap;
+  src: url("../fonts/GOLOS-UI_BOLD.woff2") format("woff2"), url("../fonts/GOLOS-UI_BOLD.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosUiMedium;
+  font-display: swap;
+  src: url("../fonts/GOLOS-UI_MEDIUM.woff2") format("woff2"), url("../fonts/GOLOS-UI_MEDIUM.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosUi;
+  font-display: swap;
+  src: url("../fonts/GOLOS-UI_REGULAR.woff2") format("woff2"), url("../fonts/GOLOS-UI_REGULAR.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn {
+  background-color: inherit;
+  border: none;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn--detailed {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 60px;
+  min-width: 141px;
+  padding: 17px 24px;
+  border: 2px solid #46ED6C;
+  border-radius: 8px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #46ED6C;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (max-width: 1199px) {
+  .btn--detailed {
+    font-size: 17px;
+    padding: 13px 23px 13px 23px;
+  }
+}
+
+@media (max-width: 992px) {
+  .btn--detailed {
+    font-size: 14px;
+    padding: 6px 21px 6px 27px;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: GolosUiBold;
+  font-display: swap;
+  src: url("../fonts/GOLOS-UI_BOLD.woff2") format("woff2"), url("../fonts/GOLOS-UI_BOLD.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosUiMedium;
+  font-display: swap;
+  src: url("../fonts/GOLOS-UI_MEDIUM.woff2") format("woff2"), url("../fonts/GOLOS-UI_MEDIUM.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosUi;
+  font-display: swap;
+  src: url("../fonts/GOLOS-UI_REGULAR.woff2") format("woff2"), url("../fonts/GOLOS-UI_REGULAR.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 120%;
+  color: #100F0F;
+}
+
+.section-title--green {
+  font-weight: 500;
+  color: #46ED6C;
+}
+
+@media screen and (max-width: 1400px) {
+  .section-title {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .section-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-title {
+    font-size: 26px;
+  }
+}
